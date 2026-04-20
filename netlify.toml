@@ -1,0 +1,3 @@
+[build]
+  command = "echo 'Using static files from public/'"
+  publish = "public"
