@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Car Rental System</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #0f172a;
+      --panel: #111c35;
+      --text: #e2e8f0;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+      --border: rgba(148, 163, 184, 0.2);
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; }
+    main { max-width: 760px; margin: 0 auto; padding: 4rem 1.5rem; }
+    header { margin-bottom: 2.5rem; }
+    h1 { font-size: 2.25rem; margin: 0 0 0.5rem; letter-spacing: -0.02em; }
+    .tagline { color: var(--muted); margin: 0; font-size: 1.05rem; }
+    .panel { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem 1.75rem; margin-bottom: 1.5rem; }
+    h2 { font-size: 1.15rem; margin: 0 0 0.75rem; color: var(--accent); }
+    ul { padding-left: 1.25rem; margin: 0.5rem 0; }
+    li { margin-bottom: 0.35rem; }
+    code { background: rgba(148, 163, 184, 0.15); padding: 0.1rem 0.35rem; border-radius: 4px; font-size: 0.9em; }
+    footer { color: var(--muted); font-size: 0.875rem; margin-top: 2rem; text-align: center; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Car Rental System</h1>
+      <p class="tagline">A placeholder landing page for the Car Rental project.</p>
+    </header>
+
+    <section class="panel">
+      <h2>About</h2>
+      <p>This repository contains the early scaffolding for a car rental application with a Node/Express backend and a React frontend. The client application is still under active development.</p>
+    </section>
+
+    <section class="panel">
+      <h2>Planned features</h2>
+      <ul>
+        <li>Browse and search available rental cars</li>
+        <li>Book a car for a chosen date range</li>
+        <li>Manage bookings as a customer</li>
+        <li>Owner dashboard to list and manage vehicles</li>
+        <li>User registration and authentication</li>
+      </ul>
+    </section>
+
+    <section class="panel">
+      <h2>Deployment notes</h2>
+      <p>Netlify is a static hosting and serverless platform, so the long-running Express server in <code>server.js</code> is not deployed here. Once the React client is complete, build output will replace this placeholder as the published site, and backend routes can be migrated to Netlify Functions.</p>
+    </section>
+
+    <footer>Static placeholder &middot; Deployed on Netlify</footer>
+  </main>
+</body>
+</html>
