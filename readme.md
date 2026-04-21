@@ -1,0 +1,1 @@
+The Car Rental System is a web-based application designed to simplify and automate the process of renting vehicles online. This system allows customers to browse available cars, view detailed information such as pricing and images, and make bookings conveniently from anywhere.
